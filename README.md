@@ -1,5 +1,5 @@
 # Easy-Graph
-Easy Matplotlib Graph For Windows
+Easy Matplotlib Graph For Windows.
 Notes For End Users:
 Matplotlib Graph For Windows Using TK Backend.
 There Are Several Methods That May Be Used To Configure The Graph.
@@ -10,4 +10,7 @@ In Your Code And Then Executing (set_axes()) Prior To Drawing. You Will Find Som
 Existing Functions That I Created Just To Make Things Easier To Change With
 Code During Runtime. View The Examples Provided For These Functions. Of Course
 You May Add More Functions Or Just Use Standard matplotlib Procedures For Change.
-The Class (Test) Provides Place Holders For Test Menu Items And Test Code.  
+The Class (Test) Provides Place Holders For Test Menu Items And Test Code.
+The X,Y Data For Plotting May Be In Lists Form Or Incomming Live Data.
+I Haved Clocked The FPS At Over 300 FPS Using List Data. There Exist Provided
+Methods In The Test Class For Both Types Of Data Input. Hope Some Enjoys.
