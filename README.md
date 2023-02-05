@@ -15,3 +15,17 @@ The X,Y Data For Plotting May Be In List Or Numpy Array Forms For Plotting.
 I Haved Clocked The Loop Speed At Over 300 FPS Using List Data. There Exist Provided
 Methods In The Test Class For Both Types Of Data Input. Hope Some Enjoys.
 Have Any Questions View The Examples Inside The Test Class.
+Required Imports:
+from win32api import GetMonitorInfo, MonitorFromPoint
+from tkinter.filedialog import asksaveasfile, askopenfile
+import tkinter as tk
+from tkinter import StringVar, IntVar, BooleanVar, simpledialog
+from tkinter import font, Menu, colorchooser, messagebox
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
+import matplotlib.patches as pch
+import time
+from datetime import datetime
+import numpy as np
+import os
