@@ -12,7 +12,7 @@ Code During Runtime. View The Examples Provided For These Functions. Of Course
 You May Add More Functions Or Just Use Standard matplotlib Procedures For Change.
 The Class (Test) Provides Place Holders For Test Menu Items And Test Code.
 The X,Y Data For Plotting May Be In List Or Numpy Array Forms For Plotting.
-I Haved Clocked The Loop Speed At Over 300 FPS Using List Data. There Exist Provided
+I Haved Clocked The Loop Speed At Over 200 FPS Using List Data. There Exist Provided
 Methods In The Test Class For Both Types Of Data Input. Hope Some Enjoys.
 Have Any Questions View The Examples Inside The Test Class.
 Required Imports:
