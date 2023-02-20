@@ -15,4 +15,5 @@ The X,Y Data For Plotting May Be In List Or Numpy Array Forms For Plotting.
 I Haved Clocked The Loop Speed At Over 200 FPS Using List Data. There Exist Provided
 Methods In The Test Class For Both Types Of Data Input.
 Have Any Questions? View The Examples Inside The Test Class.
+The Plot Data and Graph Properties may be saved to a file and uploaded to Graph later.
 All Graph Properties Are Stored Into An .ini File And Reused At run Time.
