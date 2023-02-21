@@ -1,19 +1,9 @@
 # Easy-Graph For Windows
 Easy Matplotlib Graph For Windows.
-Notes For End Users:
-Matplotlib Graph For Windows Using tkagg Backend.
-There Are Several Methods That May Be Used To Configure The Graph.
-The Provided Menus Offer Almost All Properties For Configuration before
-Executing Your Code From The Test Menu. Another Way Is To Setup All The
-tk Variables Found In (set_defaults()) Before Runtime Or Setup These Variables
-In Your Code And Then Calling (set_axes()) Prior To Drawing. You Will Find Some
-Existing Functions That I Created Just To Make Things Easier To Change With
-Code During Runtime. View The Examples Provided For These Functions. Of Course
-You May Add More Functions Or Just Use Standard matplotlib Procedures For Change.
-The Class (Test) Provides Place Holders For Test Menu Items And Test Code.
-The X,Y Data For Plotting May Be In List Or Numpy Array Forms For Plotting.
-I Haved Clocked The Loop Speed At Over 200 FPS Using List Data. There Exist Provided
-Methods In The Test Class For Both Types Of Data Input.
+There are several methods that may be used to Configure the Graph.
+The provided Menus offer almost all Properties for Configuration.
+The Graph Properties w/wo Plot Data may be saved to a file and uploaded to Graph.
+Another way is to setup all Properties in code.
 Have Any Questions? View The Examples Inside The Test Class.
-The Plot Data and Graph Properties may be saved to a file and uploaded to Graph later.
-All Graph Properties Are Stored Into An .ini File And Reused At run Time.
+The Default Graph Properties are stored into a .ini file.
+The saved Graph files by default are saved in User/Documents with extension .plt
