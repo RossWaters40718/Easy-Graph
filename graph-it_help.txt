@@ -1,0 +1,28 @@
+Help File For Graph-It_Easy.py
+
+Matplotlib Graph For Windows Using Tkinter backend_tkagg.
+This Code Is For Windows Operating System Only. You May Make
+Modifications For Other Operating Systems If You Wish. 
+Graph Setup Methods:
+	1. Use The Provided Menus To Configure The Graph.
+	2. Save The Configuration As A Plot File And Load To Graph At Any Time.
+	3. Configure Graph With Code.
+	4. Asign Values To TK Variables Located In set_defaults() And Then Run set_axes() 
+	
+# There Exist Some Functions That I Created Just To Make Things Easier To Change With
+# Code During Runtime. View The Examples Provided For These Functions. Of Course
+# You May Add More Functions Or Just Use Standard matplotlib Procedures For Change.
+# The Class (Test) Provides Place Holders For Test Menu Items And Test Code.  
+# If X And Y Data Are In Lists Or Numpy Arrays, There Are 2 Plotting Types. Loop Or Instant.
+# X And Y Values Must Be In Their Own Seperate List Or Numpy Array. If Not Then Modification Is Required.
+# Each Test Function Has 3 Choices For Plotting ('loop', 'instant'. 'live').
+# Set Argument Test.log('loop'),Test.log('instant'),Test.log('live') When Calling The Function.
+# The Argument int (plt_num) Is Used To Reset For A New Plot. For Each Time A New Plot Sequence
+# On The Same Graph, Increment plt_num by 1. This Is Necessary For Loading Plot Data To Graph.
+# The str(color,style,width) Arguments Are Basically Matplotlib Std For plt.plot().
+# All Plotted Values Are Located In List (Plot_Data) Until Cleared By Function clear_graph().
+# If You Wish To Save The Plot Data, You Must Do So Before Calling clear_graph() Function. 
+# These Values (Plot_Data) Can Be Saved To Text Files Before Clearing In Configure Viewport Menu
+# Or Being Cleared By Starting A New Test (clear_graph()) Function.
+# Always Call clear_graph() Function 'Only' At The Beginning Of A New Test.
+# Graph Configuration And/Or Plot Data May Be Saved To A Plot File.
